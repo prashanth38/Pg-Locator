@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:focusable="false"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Enter Name"
+        android:padding="15dp"
+        android:background="@drawable/btn_shape_round"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:hint="******"
+        android:focusable="false"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:background="@drawable/btn_shape_round"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:hint="Enter Email address"
+        android:focusable="false"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:background="@drawable/btn_shape_round"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etmobile"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:hint="Enter Mobile Number"
+        android:inputType="number"
+        android:padding="15dp"
+        android:background="@drawable/btn_shape_round"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etusertype"
+        android:layout_width="match_parent"
+        android:focusable="false"
+        android:padding="15dp"
+        android:background="@drawable/btn_shape_round"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"></EditText>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btsubmit"
+            android:layout_margin="25dp"
+            android:text="Change password"
+            android:layout_weight="1"
+
+            android:background="@drawable/btn_shape_capsule"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

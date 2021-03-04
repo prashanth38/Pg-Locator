@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "668390457679",
+    "firebase_url": "https://docapp-283a4.firebaseio.com",
+    "project_id": "docapp-283a4",
+    "storage_bucket": "docapp-283a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668390457679:android:a480df00c6e841d0",
+        "android_client_info": {
+          "package_name": "com.guru.docapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668390457679-7406nrfecc1p171m6vchkj9aa2bg4pos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkDqAjV9TkzPyZAfFlwXvhFuWIfcKOyT0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668390457679:android:4795354625555354",
+        "android_client_info": {
+          "package_name": "com.guru.pglocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668390457679-7406nrfecc1p171m6vchkj9aa2bg4pos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkDqAjV9TkzPyZAfFlwXvhFuWIfcKOyT0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

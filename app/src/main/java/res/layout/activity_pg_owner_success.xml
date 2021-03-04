@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btaddhostel"
+        android:text="Add Hostel"
+        android:layout_margin="25dp"
+        android:background="@drawable/btn_bg_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/viewuser"
+        android:text="View Users messages"
+        android:layout_margin="25dp"
+        android:background="@drawable/btn_bg_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/viewhostel"
+        android:text="View Your PG"
+        android:layout_margin="25dp"
+        android:background="@drawable/btn_bg_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
